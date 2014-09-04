@@ -195,10 +195,6 @@ select,.ui-select-menu
 select 
 { 
     width: 80%;
-    margin-left:10%;
+    margin-left:12%;
     height:30px; 
-}
-#progressbar-select-menu
-{
-    width: 40% !important;
 }
