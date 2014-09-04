@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="js/lightbox.js"></script>
+</head>
+
+<body>
+    <div id="progress-section">
+        <h1>Progress Bars</h1>
+        <div id="progress1" class="progress ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar">
+            <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 0%;">
+            </div>
+            <input type="hidden" value="" name='toVal'>
+            <input type="hidden" value="" name='currVal'>
+        </div>
+        <div id="progress2" class="progress ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar">
+            <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 0%;">
+            </div>
+            <input type="hidden" value="" name='toVal'>
+            <input type="hidden" value="" name='currVal'>            
+        </div>
+        <div id="progress3" class="progress ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar">
+            <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 0%;">
+            </div>
+            <input type="hidden" value="" name='toVal'>
+            <input type="hidden" value="" name='currVal'>            
+        </div>        
+            <select id="progressbar-select" class="selectmenu">
+                <option value="progress1">#progress1</option> 
+                <option value="progress2">#progress2</option> 
+                <option value="progress3">#progress3</option> 
+            </select>
+        <div id="plus25" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="btn-text">+25</span>
+        </div>            
+        <div id="minus25" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="btn-text">-25</span>
+        </div>
+        <div id="plus10" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="btn-text">+10</span>
+        </div>
+        <div id="minus10" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="btn-text">-10</span>
+        </div>                
+    </div>    
+</body>
+
+</html>

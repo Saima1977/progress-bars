@@ -1,0 +1,80 @@
+body 
+{
+    font-size: 62.5%; 
+    font-family:"Verdana",sans-serif; 
+}
+fieldset { border:0; }  
+.wrap span.ui-selectmenu-item-header,
+.wrap ul.ui-selectmenu-menu li a 
+{ 
+    text-decoration: underline !important; 
+}
+#progress-section {
+    height: 60%;
+    width:40%;
+    line-height: 20px;
+    background-color:grey;
+    text-align: center;
+    padding:2%;
+    margin:auto;
+}
+.progress
+{
+    width:90%;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.progress div.ui-widget-header{
+    background-image: none;
+    /*background-color: #ADD8E6;*/
+}
+
+.progress.aboveMax .ui-progressbar
+{
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+.progress.aboveMax .ui-progressbar-value
+{
+    background-image: none;
+    background-color: #FF0000;
+}
+
+.progress.belowMax .ui-progressbar
+{
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+.progress.belowMax .ui-progressbar-value
+{
+    background-image: none;
+    background-color: #ADD8E6;
+}
+
+#plus25, #minus25, #plus10, #minus10
+{
+    width:50px;
+}
+.btn-text
+{
+    font-size:14px;
+    text-align: center;
+}
+select,.ui-select-menu 
+{ 
+    float: left; 
+    margin-right: 10px; 
+}
+select 
+{ 
+    width: 200px;
+    margin-left:23px;
+    height:30px; 
+}
+#progressbar-select-menu
+{
+    width: 200px !important;
+}
