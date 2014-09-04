@@ -37,7 +37,7 @@ $(document).ready(function() {
             animateProgress();
         }
     });
-    
+
     $("#plus10").button().click(function() {
         if(currValue < 0)
         {
@@ -78,11 +78,12 @@ $(document).ready(function() {
             setTimeout(animateProgress, 3);
         }
 
-        if ((toValue > 100) || (toValue < 0)) {
-           $('#'+progressnum).removeClass("belowMax");
+        if (toValue > 100) 
+        {
+            $('#'+progressnum).removeClass("belowMax");
             $('#'+progressnum).addClass("aboveMax");
         } else {
-           $('#'+progressnum).removeClass("aboveMax");
+            $('#'+progressnum).removeClass("aboveMax");
             $('#'+progressnum).addClass("belowMax");
         }
 
